@@ -3,7 +3,7 @@ body {
     position: relative; /* Positionnement relatif pour les enfants positionnés absolument si besoin */
     z-index: auto; /* Z-index par défaut */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Police de caractères principale */
-    background-color: #fffaf0; /* Fond couleur champagne léger */
+    background-color: #f5f2e7; /* Fond couleur champagne léger */
     color: #ddd; /* Couleur du texte gris clair par défaut */
     line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
     margin: 0; /* Enlève la marge par défaut du corps */
@@ -18,7 +18,7 @@ html, body {
 }
 /* Style du header */
 header {
-    background-color: #fffaf0; /* Même fond que le body, champagne léger */
+    background-color: #f5f2e7; /* Même fond que le body, champagne léger */
     padding:0px; /* Espacement interne */
     text-align: center; /* Centrer le texte */
     color: white; /* Couleur du texte (peut sembler invisible sur fond blanc) */
@@ -66,7 +66,7 @@ ul.menu li {
 /* Liens du menu */
 ul.menu li a {
     text-decoration: none; /* Pas de soulignement */
-    color:#FFFFFF; /* blanc */
+    color:#4B3C2D; /* Couleur brun foncé */
     font-weight: bold; /* Gras */
     padding: 8px 12px; /* Espacement autour du texte */
     transition: background 0.3s, color 0.3s; /* Transition douce pour hover */
@@ -74,9 +74,9 @@ ul.menu li a {
 
 /* Survol des liens du menu */
 ul.menu li a:hover {
-    background-color: rgba(212, 175, 55, 0.8); /* Doré semi-transparent au survol */
+    background-color: #d6a358; /* Couleur marron orangé */
     border-radius: 4px; /* Coins arrondis */
-    color: #fff; /* Texte blanc au hover */
+    color: #4B3C2D; /* Couleur brun foncé */
 }
 
 /* Sous-menu déroulant */
@@ -85,7 +85,7 @@ ul.menu li ul.submenu {
     position: absolute; /* Positionnement absolu par rapport au li parent */
     top: 30px; /* Position verticale par rapport au parent */
     left: 0; /* Aligné à gauche du parent */
-    background-color: #ecc070 /* Doré clair */
+    background-color: #ecc070; /* Doré clair */
     box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* Ombre pour relief */
     list-style: none; /* Pas de puces */
     padding: 0; /* Pas de padding */
@@ -112,12 +112,12 @@ ul.submenu li a {
     padding: 4px 8px; /* Padding pour confort */
     max-width: 180px; /* Limite la largeur */
     display: inline-block; /* Respecte la largeur max */
-    color: #fff; /* Texte blanc */
+    color: #4B3C2D; /* Couleur brun foncé */
 }
 
 /* Survol des liens du sous-menu */
 ul.submenu li a:hover {
-    background-color: rgba(212, 175, 55, 0.8); /* Couleur dorée au survol */
+    background-color: #d6a358; /* Couleur marron orangé */
     color: #fff; /* Texte blanc */
 }
 
@@ -128,7 +128,7 @@ ul.submenu li a:hover {
 }
 .content h2 {
     text-align: center;
-    color: #D4AF37;
+    color: #4B3C2D; /* Couleur brun foncé */
     margin-bottom: 20px;
     font-size: 40px;
     text-shadow:
@@ -154,7 +154,7 @@ text-align: center;/* Aligne le texte au centre */
 .intro h1 {
     font-size: 2.5rem; /* Taille du titre */
     margin-bottom: 1rem; /* Marges en dessous */
-    color: black; /* Noir */
+    color: #4B3C2D; /* Couleur brun foncé */
 }
 
 /* Paragraphe dans intro */
@@ -162,7 +162,7 @@ text-align: center;/* Aligne le texte au centre */
     font-size: 1.2rem; /* Taille du texte */
     max-width: 800px; /* Largeur maximale pour confort lecture */
     margin: 0 auto 1.5rem; /* Centré avec marge inférieure */
-    color: black; /* Noir */
+    color: #4B3C2D; /* Couleur brun foncé */
 }
 
 /* Section packs, affichage flex pour mise en page en grille */
@@ -180,6 +180,7 @@ text-align: center;/* Aligne le texte au centre */
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  color:#4B3C2D; /* Couleur brun foncé */
 }
 
 .card {
@@ -216,12 +217,12 @@ text-align: center;/* Aligne le texte au centre */
 .description h3 {
     font-size: 1.2rem; /* Taille du titre */
     margin-bottom: 0.5rem; /* Marges inférieures */
-    color: #fff; /* Blanc */
+    color: #4B3C2D; /* Couleur brun foncé */
 }
 
 .description p {
     font-size: 16px; /* Taille du texte */
-    color: #ccc; /* Gris clair */
+    color: #4B3C2D; /* Couleur brun foncé */
 }
 
 /* Pied de page */
@@ -233,13 +234,13 @@ footer {
     display: flex; /* Flexbox */
     flex-direction: column; /* Disposition verticale */
     align-items: center; /* Centrer contenu horizontal */
-	color: #fffaf0!important; /* Couleur champagne léger */
+	color: #4B3C2D!important; /* Couleur brun foncé */
 }
 
 /* Paragraphe dans le footer */
 footer p {
     text-align: center; /* Centrer le texte */
-	color: #fffaf0!important; /* Couleur champagne léger */
+	color: #4B3C2D!important; /* Couleur brun foncé */
 }
 
 /* Définition d'une police personnalisée pour titres */
@@ -338,7 +339,7 @@ h4 {
 /* Conteneur du formulaire de contact */
 .contact-container {
     background-color: #ecc070; /* Doré clair */
-    color: #D4AF37; /* Doré */
+    color: #4B3C2D; /* Couleur brun foncé */
     padding: 40px; /* Padding interne */
     border-radius: 10px; /* Coins arrondis */
     max-width: 500px; /* Largeur maximale */
@@ -348,6 +349,17 @@ h4 {
     margin-top: 100px; /* Espace au-dessus */
 }
 
+.contact-container h2 {
+text-align: center;
+    color: #4B3C2D; /* Couleur brun foncé */
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-shadow:
+        1px 1px 0 #999,
+        2px 2px 0 #666,
+        3px 3px 0 #333;
+}
+
 /* Taille par défaut pour le textarea */
 textarea {
   font-size: 1.2em; /* Taille de police plus grande pour tout le site */
@@ -355,18 +367,6 @@ textarea {
   height: 150px; /* Hauteur initiale */
   width: 100%; /* Prend toute la largeur du conteneur */
   box-sizing: border-box; /* Inclus padding et border dans la largeur */
-}
-
-/* Titre du formulaire */
-h2 {
-    text-align: center;
-    color: #D4AF37;
-    margin-bottom: 20px;
-    font-size: 2em;
-    text-shadow:
-        1px 1px 0 #999,
-        2px 2px 0 #666,
-        3px 3px 0 #333;
 }
 
 /* Formulaire */
@@ -379,7 +379,7 @@ form {
 label {
     margin-bottom: 8px; /* Espace en dessous */
     font-weight: bold; /* Gras */
-    color: #fff; /* Blanc */
+    color: #4B3C2D; /* Couleur brun foncé */
 }
 
 /* Champs de saisie (text, email, textarea) */
@@ -405,7 +405,7 @@ textarea:focus {
 
 /* Bouton de soumission */
 button {
-    background-color: #D4AF37; /* Doré */
+    background-color: #d6a358; /* Couleur marron orangé */
     color: #fff; /* Texte blanc */
     padding: 14px; /* Padding intérieur */
     border: none; /* Pas de bordure */
@@ -417,7 +417,7 @@ button {
 
 /* Survol du bouton */
 button:hover {
-    background-color: #b8962f; /* Ton plus foncé en hover */
+    background-color: #b58a49;  /* Ton plus foncé en hover */
 }
 
 /* Message de confirmation ou d'erreur */
@@ -439,7 +439,7 @@ p {
     margin: 20px auto; /* Centré avec marges verticales */
     font-size: 18px; /* Taille confortable */
     line-height: 1.8; /* Espacement pour lecture aisée */
-    color: #444; /* Couleur légèrement sombre */
+    color: #4B3C2D; /* Couleur brun foncé */
     text-align: justify; /* Justification du texte */
     text-shadow: 1px 1px 2px rgba(0,0,0,0.05);/* Ajout d'une légère ombre pour relief */
     hyphens: auto;/* Permet la césure automatique pour éviter les longues lignes non équilibrées. */
@@ -451,7 +451,7 @@ p {
 p.intro {
     font-weight: bold; /* Texte en gras */
     font-size: 20px; /* Taille légèrement plus grande */
-    color: #222; /* Couleur très sombre */
+    color: #4B3C2D; /* Couleur brun foncé */
     margin-bottom: 30px; /* Espace en dessous */
 }
 
@@ -478,7 +478,7 @@ p.quote {
 }
 .burger-menu .bar {
     height: 3px; /* Hauteur des barres */
-    background-color: #fff; /* Couleur blanc ou selon thème */
+    background-color: #4B3C2D; /* Couleur brun foncé des trois barres*/
     border-radius: 2px; /* Coins arrondis */
     width: 100%; /* Prend toute la largeur du burger */
     transition: 0.3s; /* Transition pour effet */
@@ -515,7 +515,7 @@ ul.custom-list li::before {
   transform: translateY(-50%);
   width: 6px; /* Taille de la puce */
   height: 6px;
-  border: 2px solid #D4AF37; /* Couleur dorée de la bordure */
+  border: 2px solid #999999; /* Bleu doux */
   border-radius: 50%; /* Forme ronde */
   background-color: transparent; /* Fond transparent pour l'effet creux */
 }
@@ -528,7 +528,7 @@ hr {
   /* Supprimer le style par défaut */
   border: none;
   height: 2px; /* Ajustez la hauteur selon votre besoin */
-  background-color: #D4AF37; /* Doré */
+  background-color: #70c0e5; /* Bleu doux */
   width: 75%; /* ou la largeur souhaitée */
   box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
   }
@@ -583,7 +583,7 @@ hr {
     .burger-menu .bar {
         height: 4px; /* Plus épaisses */
         width: 100%;
-        background-color: #fff; /* Blanc */
+        background-color: #4B3C2D; /* Couleur brun foncé des trois barres*/
         border-radius: 2px;
         transition: 0.3s;
     }
@@ -672,7 +672,7 @@ hr {
     .burger-menu .bar {
         height: 4px; /* Épaissies */
         width: 100%;
-        background-color: #fff;
+        background-color: #4B3C2D; /* Couleur brun foncé des trois barres*/
         border-radius: 2px;
         transition: 0.3s;
     }
