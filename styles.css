@@ -163,6 +163,7 @@ text-align: center;/* Aligne le texte au centre */
     max-width: 800px; /* Largeur maximale pour confort lecture */
     margin: 0 auto 1.5rem; /* Centré avec marge inférieure */
     color: #4B3C2D; /* Couleur brun foncé */
+	text-align:justify; /* Justifier le texte */
 }
 
 /* Section packs, affichage flex pour mise en page en grille */
@@ -532,6 +533,10 @@ hr {
   width: 75%; /* ou la largeur souhaitée */
   box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
   }
+  
+  .centered-text {
+  text-align: center!important;
+}
 /* ------------------------------------------- FIN DES STYLES GLOBAUX ------------------------------------------- */
 
 /* =========================== STYLES RESPONSIVE (pour mobiles et petits écrans) =========================== */
