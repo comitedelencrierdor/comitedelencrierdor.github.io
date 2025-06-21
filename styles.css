@@ -36,7 +36,7 @@ header {
     position: fixed; /* Fixe en haut de la fenêtre */
     top: 0; /* Position en haut */
     width: 100%; /* Prend toute la largeur */
-    background-color: #976a28; /* Brun dorée chaud */
+    background-color: #ecc070; /* Doré clair */
     box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Ombre pour relief */
     z-index: 1000; /* Sur le reste du contenu */
     padding: 1rem 1rem; /* Espacement interne */
@@ -85,7 +85,7 @@ ul.menu li ul.submenu {
     position: absolute; /* Positionnement absolu par rapport au li parent */
     top: 30px; /* Position verticale par rapport au parent */
     left: 0; /* Aligné à gauche du parent */
-    background-color: #976a28; /* Brun dorée chaud */
+    background-color: #ecc070 /* Doré clair */
     box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* Ombre pour relief */
     list-style: none; /* Pas de puces */
     padding: 0; /* Pas de padding */
@@ -183,7 +183,7 @@ text-align: center;/* Aligne le texte au centre */
 }
 
 .card {
-  background-color: #976a28; /* Brun dorée chaud */
+  background-color: #ecc070; /* Doré clair */
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.7);
   width: 100%;
@@ -200,7 +200,7 @@ text-align: center;/* Aligne le texte au centre */
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.9);
-  background-color: #b07b3b; /* Maron orangé plus clair */
+  background-color: #f5c86a; /* Jaune-orange */
 }
 
 /* Style pour la carte large (3ème) */
@@ -227,7 +227,7 @@ text-align: center;/* Aligne le texte au centre */
 /* Pied de page */
 footer {
     width: 100%; /* Toute la largeur */
-    background-color: #976a28; /* Brun dorée chaud */
+    background-color: #ecc070; /* Doré clair */
     padding: 5px 0; /* Padding vertical */
     margin-top: 40px; /* Espace au-dessus */
     display: flex; /* Flexbox */
@@ -337,7 +337,7 @@ h4 {
 
 /* Conteneur du formulaire de contact */
 .contact-container {
-    background-color: #976a28; /* Brun dorée chaud */
+    background-color: #ecc070; /* Doré clair */
     color: #D4AF37; /* Doré */
     padding: 40px; /* Padding interne */
     border-radius: 10px; /* Coins arrondis */
@@ -593,7 +593,7 @@ hr {
         top: calc(100% + 20px); /* Juste en dessous du burger */
         right: 20px; /* Aligné à droite */
         width: 250px; /* Largeur du menu */
-        background-color: #976a28; /* Brun dorée chaud */
+        background-color: #ecc070; /* Doré clair */
         box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* Ombre */
         display: none; /* Caché par défaut */
         border-radius: 4px; /* Coins arrondis */
@@ -643,7 +643,7 @@ hr {
         top: 0; /* Positionné par rapport à son parent */
         right: 60px; /* Ajusté selon besoin */
         width: 200px;
-        background-color: #976a28; /* Brun dorée chaud */
+        background-color: #ecc070; /* Doré clair */
         box-shadow: 0 2px 8px rgba(0,0,0,0.5);
         display: none; /* Peut être modifié pour toujours visible si souhaité */
         z-index: 1002;
@@ -682,7 +682,7 @@ hr {
         top: calc(100% + 20px);
         right: 20px;
         width: 250px;
-        background-color: #976a28; /* Brun dorée chaud */
+        background-color: #ecc070; /* Doré clair */
         box-shadow: 0 2px 8px rgba(0,0,0,0.5);
         display: none; /* Caché par défaut */
         border-radius: 4px;
@@ -723,7 +723,7 @@ hr {
 
 /* Conteneur du formulaire de contact */
 .contact-container {
-    background-color: #976a28; /* Brun dorée chaud */
+    background-color: #ecc070; /* Doré clair */
     color: #D4AF37; /* Doré */
     padding: 40px; /* Padding interne */
     border-radius: 10px; /* Coins arrondis */
