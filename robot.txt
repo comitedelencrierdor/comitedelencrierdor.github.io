@@ -1,0 +1,6 @@
+# robots.txt pour https://comitedelencrierdor.ddns.net/
+
+User-agent: *
+Disallow: /contact.html
+
+Sitemap: https://comitedelencrierdor.ddns.net/sitemap.xml
