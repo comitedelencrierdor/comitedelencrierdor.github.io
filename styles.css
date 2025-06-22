@@ -452,7 +452,7 @@ p {
     text-align: justify; /* Justification */
     /* Effet léger d'ombre ou relief si nécessaire */
     hyphens: auto; /* Césure automatique pour meilleure adaptation */
-    overflow-wrap: break-word; /* Coupe des mots si nécessaire */
+    word-break: break-word; /* Coupe des mots si nécessaire */
 }
 
 /* Paragraphe d'intro spécifique */
@@ -610,7 +610,7 @@ hr {
     /* Menu mobile déroulant */
     .menu-drawer {
         position: absolute; /* Position absolue */
-        top: calc(100% + 20px); /* Juste en dessous du burger */
+        top: calc(100% + 2px); /* Juste en dessous du bandeau */
         right: 20px; /* Position à droite */
         width: 250px; /* Largeur */
         background-color: #ecc070; /* Couleur */
@@ -661,7 +661,7 @@ hr {
     /* Sous-menus dans mobile (si présents) */
     ul.submenu {
         position: absolute; /* Position spécifique */
-        top: -10px; /* Aligné en haut */
+        top: 0; /* Aligné en haut */
         right: 60px; /* Décalé à droite */
         width: 200px; /* Largeur */
         background-color: #ecc070; /* Fond */
