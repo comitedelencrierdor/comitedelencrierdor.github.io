@@ -452,7 +452,7 @@ p {
     text-align: justify; /* Justification */
     /* Effet léger d'ombre ou relief si nécessaire */
     hyphens: auto; /* Césure automatique pour meilleure adaptation */
-    word-break: break-word; /* Coupe des mots si nécessaire */
+    overflow-wrap: break-word; /* Coupe des mots si nécessaire */
 }
 
 /* Paragraphe d'intro spécifique */
