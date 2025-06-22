@@ -661,7 +661,7 @@ hr {
     /* Sous-menus dans mobile (si présents) */
     ul.submenu {
         position: absolute; /* Position spécifique */
-        top: 0; /* Aligné en haut */
+        top: -10px; /* Aligné en haut */
         right: 60px; /* Décalé à droite */
         width: 200px; /* Largeur */
         background-color: #ecc070; /* Fond */
