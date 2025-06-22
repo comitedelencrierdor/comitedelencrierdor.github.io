@@ -507,7 +507,7 @@ ul.custom-list li {
     margin-bottom: 10px; /* Espacement entre éléments */
     text-align: justify; /* Justification */
     hyphens: auto; /* Césure automatique */
-    word-wrap: break-word; /* Coupe des mots si nécessaire */
+    overflow-wrap: break-word; /* Coupe des mots si nécessaire */
 }
 ul.custom-list li::before {
     content: ""; /* Pas de contenu textuel */
