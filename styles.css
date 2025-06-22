@@ -6,7 +6,7 @@ body {
     z-index: auto; /* Z-index par défaut */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Police générale du corps */
     background-color: #f5f2e7; /* Couleur de fond claire */
-    color: #ddd; /* Couleur du texte (attention : clair sur fond clair) */
+    color: #4B3C2D; /* Couleur brun foncé du texte */
     line-height: 1.6; /* Hauteur de ligne pour la lisibilité */
     margin: 0; /* Suppression des marges par défaut */
     display: flex; /* Mise en page flexible en colonne */
@@ -77,15 +77,15 @@ ul.menu li {
 /* Liens du menu principal */
 ul.menu li a {
     text-decoration: none; /* Pas de soulignement */
-    color: #4B3C2D; /* Couleur foncée */
+    color: #4B3C2D; /* Couleur brun foncé du texte */
     font-weight: bold; /* Gras */
     padding: 8px 12px; /* Padding interne */
     transition: background 0.3s, color 0.3s; /* Transition pour hover */
 }
 ul.menu li a:hover {
-    background-color: #d6a358; /* Couleur de survol */
+    background-color: #d6a358; /*Couleur beige chaud au Survol */
     border-radius: 4px; /* Coins arrondis */
-    color: #4B3C2D; /* Couleur du texte au hover */
+    color: #4B3C2D; /* Couleur brun foncé du texte au hover */
 }
 
 /* Sous-menu déroulant */
@@ -94,7 +94,7 @@ ul.menu li ul.submenu {
     position: absolute; /* Position absolue par rapport au parent */
     top: 30px; /* Position verticale */
     left: 0; /* Aligné à gauche */
-    background-color: #ecc070; /* Couleur de fond */
+    background-color: #ecc070; /* Couleur jaune doré clair de fond */
     box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* Ombre portée */
     list-style: none; /* Sans puces */
     padding: 0; /* Sans padding */
@@ -119,10 +119,10 @@ ul.submenu li a {
     padding: 4px 8px; /* Padding interne */
     max-width: 180px; /* Limite de largeur */
     display: inline-block; /* Bloc en ligne */
-    color: #4B3C2D; /* Couleur du texte */
+    color: #4B3C2D; /* Couleur brun foncé du texte */
 }
 ul.submenu li a:hover {
-    background-color: #d6a358; /* Survol */
+    background-color: #d6a358; /*Couleur beige chaud au Survol */
     color: #fff; /* Texte en blanc */
 }
 
