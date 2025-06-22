@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Métadonnées de base -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comité de l'encrier d'or - packs 4 à 6</title>
-	<meta name="keywords" content="encrier d'or, comité de l'encrier d'or, romans policiers français, histoires, offrir">
+    <meta name="keywords" content="encrier d'or, comité de l'encrier d'or, romans policiers français, histoires, offrir">
     
-    <!-- Métadonnées de base -->
+    <!-- Description pour le référencement -->
     <meta name="description" content="Le Comité de l'encrier d'or, expert en écriture, graphisme, web et relecture, accompagne les auteurs de la conception à la publication pour valoriser leur créativité.">
     <meta name="author" content="Comité de l'encrier d'or">
     <meta name="language" content="fr">
@@ -26,6 +27,7 @@
     <meta name="twitter:description" content="Le comité de l'encrier d'or, expert en écriture, graphisme, web et relecture, accompagne les auteurs de la conception à la publication pour valoriser leur créativité.">
     <meta name="twitter:image" content="https://comitedelencrierdor.ddns.net/images/twitter-image.png"> 
 
+    <!-- Favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Lien vers le fichier CSS externe -->
     <link rel="stylesheet" href="styles.css">
@@ -33,170 +35,197 @@
 <body>
     <!-- Bandeau fixe en haut -->
     <div class="bandeau">
-        <!-- Bouton burger -->
+        <!-- Bouton burger pour menu responsive -->
         <div class="burger-menu" id="burger" aria-label="Menu" role="button" tabindex="0">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+            <div class="bar"></div> <!-- Barre du burger -->
+            <div class="bar"></div> <!-- Barre du burger -->
+            <div class="bar"></div> <!-- Barre du burger -->
         </div>
+        <!-- Navigation menu -->
         <nav>
-            <!-- Menu -->
+            <!-- Drawer du menu -->
             <div class="menu-drawer" id="menuDrawer">
+                <!-- Liste principale du menu -->
                 <ul class="menu">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="conseils.html">Conseils</a></li>
                     <li>
                         <a href="#">Offrir une histoire</a>
+                        <!-- Sous-menu -->
                         <ul class="submenu">
                             <li><a href="packs_1_a_3.html">Packs 1 à 3</a></li>
-							<li><a href="packs_4_a_6.html">Packs 4 à 6</a></li>
+                            <li><a href="packs_4_a_6.html">Packs 4 à 6</a></li>
                         </ul>
                     </li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
+            </div> <!-- Fin du menu-drawer -->
         </nav>
-    </div>
+    </div> <!-- Fin de la bandeau -->
 
     <!-- Contenu principal -->
     <div class="content">
-        <!-- Introduction -->
+        <!-- Section d'introduction -->
         <section class="intro">
             <header>
+                <!-- Logo header -->
                 <img src="images/header.png" alt="Logo" style="height:400px;">
             </header>
+            <!-- Contenu de l'intro -->
             <div class="content h2">
                 <h2>Offrez une histoire</h2>
-				<h3>Nos différents packs:</h3>
-				<p class="centered-text">Chaque roman est écrit par un auteur professionnel. Aucun contenu préfabriqué.<br>
-				   Vous êtes libre de modifier l’histoire avant impression.</p>
+                <h3>Nos différents packs:</h3>
+                <p class="centered-text">
+                    Chaque roman est écrit par un auteur professionnel. Aucun contenu préfabriqué.<br>
+                    Vous êtes libre de modifier l’histoire avant impression.
+                </p>
             </div>
         </section>
 
-        <!-- Section regroupant les cartes -->
+        <!-- Section regroupant les cartes des packs -->
         <section class="cards-section">
-            <!-- Card 1 -->
+            <!-- Card 1 : "L’Épopée d’une Vie" -->
             <div class="card card-large" id="carte1">
                 <div class="description">
                     <h4>"L’Épopée d’une Vie":</h4>
                     <p>Une biographie condensée, touchante et valorisante, pour saluer la carrière exceptionnelle et
-					   la personnalité d’un futur retraité. </p>
-					 <img src="images/pack_retraite.png" alt="Description de l'image" class="image-argentee"> 
-					  <u>Ce que comprend votre commande :</u>
+                       la personnalité d’un futur retraité. </p>
+                    <!-- Image du pack -->
+                    <img src="images/pack_retraite.png" alt="Description de l'image" class="image-argentee"> 
+                    <!-- Liste des inclusions -->
+                    <u>Ce que comprend votre commande :</u>
                     <ul class="custom-list">
                         <li>Biographie romancée de 30 à 40 pages entièrement rédigé à partir de votre histoire ou de vos choix</li>
-					</ul>	
-                         <ul class="custom-list">
-                            <li>Prénom du destinataire</li>
-							<li>Métier ou secteur d'activité (Récit du parcours professionnel et personnel)</li>
-							<li>Années de carrière</li>
-                            <li>Style de narration au choix (romantique, aventure, comique, inspirant, épique, touchant.)</li>
-							<li>Intégration des souvenirs marquants et qualités humaines</li>
-                            <li>Qualités principales</li>
-							<li>Projets pour la retraite</li>
-							<li>Message personnel ou collectif</li>
-						 </ul>						 					 													 						                         
+                    </ul>	
+                    <!-- Détails spécifiques -->
+                    <ul class="custom-list">
+                        <li>Prénom du destinataire</li>
+                        <li>Métier ou secteur d'activité (Récit du parcours professionnel et personnel)</li>
+                        <li>Années de carrière</li>
+                        <li>Style de narration au choix (romantique, aventure, comique, inspirant, épique, touchant.)</li>
+                        <li>Intégration des souvenirs marquants et qualités humaines</li>
+                        <li>Qualités principales</li>
+                        <li>Projets pour la retraite</li>
+                        <li>Message personnel ou collectif</li>
+                    </ul>
+                    <!-- Tarif -->
                     <u>Tarif:</u>
                     <p>À partir de 60,00 € (Version imprimée + version numérique incluse)</p>
+                    <!-- Options supplémentaires -->
                     <u>Options supplémentaires :</u>
                     <ul class="custom-list">
                         <li>Couverture rigide premium : +10€</li>
                         <li>Ajout de photos (intégrées dans le livre) : +7 €</li>
-					</ul>
-                </div>
-            </div>
-            <!-- Card 2 -->
+                    </ul>
+                </div> <!-- Fin description -->
+            </div> <!-- Fin card 1 -->
+
+            <!-- Card 2 : "Pour ne jamais oublier" -->
             <div class="card card-large" id="carte2">
                 <div class="description">
                     <h4>"Pour ne jamais oublier"</h4>
                     <p>Rendez hommage à un proche pour une occasion spéciale,
-					   pour lui témoigner votre reconnaissance via un récit valorisant et émouvant.</p>
-                         <img src="images/pack_proche.png" alt="Description de l'image" class="image-argentee">
-                         <u>Ce que comprend votre commande:</u><br><br>
-					 <ul class="custom-list">
+                       pour lui témoigner votre reconnaissance via un récit valorisant et émouvant.</p>
+                    <!-- Image du pack -->
+                    <img src="images/pack_proche.png" alt="Description de l'image" class="image-argentee">
+                    <!-- Inclusions -->
+                    <u>Ce que comprend votre commande:</u><br><br>
+                    <ul class="custom-list">
                         <li>Biographie romancée de 20-30 pages entièrement rédigé à partir de votre histoire ou de vos choix</li>
-					 </ul> 
-					 <ul class="custom-list">	 
-                         <li>Portraits, souvenirs et qualités mises en valeur</li>
-                         <li>Prénom de la personne à honorer</li>
-                         <li>Lien avec la personne (famille, ami, etc.))</li>
-                         <li>Périodes de vie importantes</li>
-                         <li>Style souhaité (sobre, poétique, mémorial, etc.)</li>
-                         <li>Qualités ou souvenirs marquants</li>
-                         <li>Ajout des messages d’autres proches</li>
-                     </ul>
-                       <p><u>Tarif:</u>
+                    </ul> 
+                    <!-- Détails -->
+                    <ul class="custom-list">	 
+                        <li>Portraits, souvenirs et qualités mises en valeur</li>
+                        <li>Prénom de la personne à honorer</li>
+                        <li>Lien avec la personne (famille, ami, etc.)</li>
+                        <li>Périodes de vie importantes</li>
+                        <li>Style souhaité (sobre, poétique, mémorial, etc.)</li>
+                        <li>Qualités ou souvenirs marquants</li>
+                        <li>Ajout des messages d’autres proches</li>
+                    </ul>
+                    <!-- Tarif -->
+                    <p><u>Tarif:</u></p>
                     <p>À partir de 60,00 € (Version imprimée + version numérique incluse)</p>
+                    <!-- Options -->
                     <u>Options supplémentaires :</u>
                     <ul class="custom-list">
                         <li>Couverture rigide premium : +10€</li>
                         <li>Ajout de photos (intégrées dans le livre) : +7 €</li>
-					</ul>
-                    </div>
-                </div>
-            <!-- Card 3 -->
+                    </ul>
+                </div> <!-- Fin description -->
+            </div> <!-- Fin card 2 -->
+
+            <!-- Card 3 : "Histoire d’Entreprise" -->
             <div class="card card-large" id="carte3">
                 <div class="description">
                     <h4>"Histoire d’Entreprise"</h4>
                     <p>Un récit original retraçant les débuts, les valeurs, les réussites et les temps forts d’une entreprise,
-					   idéal pour marquer un anniversaire ou motiver les équipes.</p>
-					     <img src="images/pack_entreprise.jpg" alt="Description de l'image" class="image-argentee">
+                       idéal pour marquer un anniversaire ou motiver les équipes.</p>
+                    <!-- Image du pack -->
+                    <img src="images/pack_entreprise.jpg" alt="Description de l'image" class="image-argentee">
+                    <!-- Inclus -->
                     <u>Ce que comprend votre commande :</u>
                     <ul class="custom-list">
                         <li>Récit narratif sur mesure 25-35 pages entièrement rédigé à partir de votre histoire ou de vos choix</li>
-					</ul>	
-                         <ul class="custom-list">
-                            <li>Nom de l'entreprise</li>
-							<li>Date de création</li>
-                            <li>Style de narration au choix (romantique, aventure, comique, thriller…)</li>
-							<li>Traits de personnalité</li>
-                            <li>Lieux réels ou fictifs</li>
-                            <li>Détails personnels (rencontres, événements vécus, passions, messages secrets…)</li>
-							<li>Intégration de témoignages ou citations internes</li>
-							<li>Une dédicace personnalisée offerte en première page</li>
-                         </ul>						 					 													 						                         
+                    </ul>	
+                    <!-- Détails -->
+                    <ul class="custom-list">
+                        <li>Nom de l'entreprise</li>
+                        <li>Date de création</li>
+                        <li>Style de narration au choix (romantique, aventure, comique, thriller…)</li>
+                        <li>Traits de personnalité</li>
+                        <li>Lieux réels ou fictifs</li>
+                        <li>Détails personnels (rencontres, événements vécus, passions, messages secrets…)</li>
+                        <li>Intégration de témoignages ou citations internes</li>
+                        <li>Une dédicace personnalisée offerte en première page</li>
+                    </ul>
+                    <!-- Tarif -->
                     <u>Tarif:</u>
                     <p>À partir de 70,00 € (Version imprimée + version numérique incluse)</p>
-                    <u>Options supplémentaires :</u>
+                    <!-- Options -->
                     <ul class="custom-list">
                         <li>Couverture rigide premium : +10 €</li>
                         <li>Ajout de photos (intégrées dans le livre) : +7 €</li>
                     </ul>                
-                </div>
-            </div>
-        </section>
-    </div>
+                </div> <!-- Fin description -->
+            </div> <!-- Fin card 3 -->
+        </section> <!-- Fin section cartes -->
+    </div> <!-- Fin du contenu principal -->
+
     <!-- Pied de page -->
-        <footer id="footer">
-		     <p>&copy; 2025 comitedelencrierdor.ddns.net<br> Tous droits réservés. Design et contenu crée par<br><i> le Comité de l'encrier d'or.</i></p>			
-     <!-- Conteneur pour les boutons sociaux -->
-			 <div class="social-buttons">
-			<!-- Bouton Facebook -->
-                 <a class="social-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcomitedelencrierdor.ddns.net" target="_blank" rel="noopener noreferrer">
-                     <i class="fab fa-facebook-f"></i>Facebook
-			<!-- Bouton Twitter -->	 
-                 </a>
-                 <a class="social-btn twitter" href="https://twitter.com/intent/tweet?text=Découvrez%20ce%20site%20formidable!&url=https%3A%2F%2Fcomitedelencrierdor.ddns.net" target="_blank" rel="noopener noreferrer">
-                     <i class="fab fa-twitter"></i>Twitter
-                 </a>
-			<!-- Badge W3C Validator dans le footer -->
+    <footer id="footer">
+        <p>&copy; 2025 comitedelencrierdor.ddns.net<br> Tous droits réservés. Design et contenu crée par<br><i> le Comité de l'encrier d'or.</i></p>
+        <!-- Conteneur pour les boutons sociaux -->
+        <div class="social-buttons">
+            <!-- Bouton Facebook -->
+            <a class="social-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcomitedelencrierdor.ddns.net" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>Facebook
+            </a>
+            <!-- Bouton Twitter -->
+            <a class="social-btn twitter" href="https://twitter.com/intent/tweet?text=Découvrez%20ce%20site%20formidable!&url=https%3A%2F%2Fcomitedelencrierdor.ddns.net" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>Twitter
+            </a>
+            <!-- Badge W3C Validator -->
             <div style="text-align: center; margin-top: 2px;">
                 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcomitedelencrierdor.ddns.net/packs_4_a_6.html" target="_blank" rel="noopener noreferrer">
                     <img src="images/valid5.png" alt="Valid HTML5" style="width: 88px; height: 26px; border: 0;">
                 </a>
-            </div>	 
-             </div>
-    </footer>
+            </div> <!-- Fin badge validation -->
+        </div> <!-- Fin social-buttons -->
+    </footer> <!-- Fin footer -->
+
+    <!-- Script pour le menu burger -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const burger = document.getElementById('burger');
-            const menuDrawer = document.getElementById('menuDrawer');
+            const burger = document.getElementById('burger'); // Bouton burger
+            const menuDrawer = document.getElementById('menuDrawer'); // Menu drawer
 
+            // Toggle la classe 'active' pour ouvrir/fermer le menu
             burger.addEventListener('click', () => {
                 menuDrawer.classList.toggle('active');
             });
 
-            // Fermer si clic en dehors
+            // Fermer le menu si clic en dehors
             document.addEventListener('click', (e) => {
                 if (!menuDrawer.contains(e.target) && !burger.contains(e.target)) {
                     menuDrawer.classList.remove('active');
